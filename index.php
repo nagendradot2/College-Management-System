@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-$con = mysqli_connect("localhost", "root", "", "cms");
+$con = mysqli_connect("db", "root", "root", "cms");
 
 if (isset($_POST["submit"])) {
     $username = $_POST["user"];
